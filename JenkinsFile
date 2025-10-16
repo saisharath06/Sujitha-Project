@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = "cap-ecommerce:${params.IMAGE_TAG}"
+        DOCKER_IMAGE = "cap-sujitha:${params.IMAGE_TAG}"
         DOCKER_HUB_REPO = "sharath0608/cap-ecommerce"
         ECR_REPO = "636768524979.dkr.ecr.us-east-1.amazonaws.com/sharath-capstone"
         AWS_REGION = "us-east-1"
